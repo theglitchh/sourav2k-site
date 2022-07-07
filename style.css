@@ -9,8 +9,8 @@
 	--pink: #b48ead;
 	--accent: var(--blue);
 
-	--background: #3b4252;
-	--backdrop: #2e3440;
+	--background: #191919;
+	--backdrop: #212121;
 	--foreground: #ddd;
 	--shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
@@ -113,8 +113,8 @@ h1 {
 		--pink: #b48ead;
 		--accent: var(--blue);
 
-		--background: #3b4252;
-		--backdrop: #2e3440;
+		--background: #191919;
+		--backdrop: #212121;
 		--foreground: #ddd;
 		--shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 	}
@@ -122,6 +122,11 @@ h1 {
 
 .about-class {
 	text-transform: capitalize;
+	margin: 20px;
+}
+.about-topic {
+
+
 	margin: 20px;
 }
 
@@ -203,9 +208,9 @@ a:hover{
 	text-transform: uppercase;
 	background-image: linear-gradient(
 			-225deg,
-			var(--blue) 0%,
-			var(--pink) 29%,
-			var(--cyan) 67%
+			var(--blue) 10%,
+			var(--green) 29%,
+			var(--green) 67%
 	);
 	background-size: auto auto;
 	background-clip: border-box;
